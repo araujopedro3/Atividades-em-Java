@@ -18,5 +18,7 @@ public class MainTabuada {
             resultado = numeroTabuada * i;
             System.out.printf("%d X %d: %d\n", numeroTabuada, i, resultado);
         }
+
+        input.close();
     }
 }
